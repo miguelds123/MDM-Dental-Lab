@@ -1,0 +1,15 @@
+.Info p{
+    color: #8593AE;
+}
+
+.Info{
+    display: block;
+    margin-bottom: 200px;
+}
+
+.Info h2{
+    background-color: white;
+    color: #8593AE;
+    text-align: center;
+    margin-left: 15%;
+}

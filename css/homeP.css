@@ -1,0 +1,146 @@
+@media (max-width: 1249px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+   
+    #Encabezado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        width: 100px;
+    }
+    
+    #Titulo{
+        margin-top: 10px;
+        color: #8593AE;
+        text-align: center;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav a{
+        padding: 10px;
+        color: #8593AE;
+        text-decoration: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        background-color: #8593AE;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border: solid 1px;
+    }
+    
+    aside a{
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    #ImagenDuena{
+        width: 120px;
+        border-radius: 60px;
+    }
+    
+    #InformaciónDueña{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #Contactenos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .RedesSociales{
+        display: flex;
+        align-items: center;
+    }
+    
+    .FotoRedSocial{
+        width: 24px;
+        height: 24px;
+    }
+    
+    table{
+        width: fit-content;
+        margin-right: 10px;
+    }
+    
+    table tr td{
+        padding-top: 10px;
+    }
+    
+    footer{
+       
+        padding: 20px;  
+        margin-top: 10px;
+        color:#8593AE;
+        text-align: center;
+       
+    }
+    
+    #FotoLab{
+        width: 100%;
+    
+    }
+    .Contenido {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContenidoP{
+        height: 100%;
+
+    }
+    
+    .Info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .Info h2{
+        width: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #8593AE;
+        font-size: 20px;
+    }
+}

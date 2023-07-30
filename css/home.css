@@ -1,0 +1,133 @@
+header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 35%;
+}
+
+#Encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 100px;
+}
+
+#Titulo{
+    margin-top: 10px;
+    color: #8593AE;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    padding: 20px;
+    color: #8593AE;
+    text-decoration: none;
+}
+main{
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #8593AE;
+    color: white;
+    width: 15%;
+    padding: 10px;
+}
+
+aside a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#ImagenDuena{
+    width: 120px;
+    border-radius: 60px;
+}
+
+#InformaciónDueña{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#Contactenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RedesSociales{
+    display: flex;
+    align-items: center;
+}
+
+.FotoRedSocial{
+    width: 24px;
+    height: 24px;
+}
+
+table{
+    width: fit-content;
+    margin-right: 10px;
+}
+
+table tr td{
+    padding-top: 10px;
+}
+
+footer{
+   
+    padding: 20px;  
+    margin-top: 10px;
+    color:#8593AE;
+    text-align: center;
+   
+}
+
+#FotoLab{
+    width: 1000px;
+
+}
+.Contenido {
+    width: 90%;
+   
+   display: flex;
+    justify-content: center;
+    
+}
+
+.Info{
+    display: flex;
+  width: 1000px;
+  height: 250px;
+   color: white;
+   justify-content: center;
+   
+}
+
+.Info h2{
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #8593AE;
+    font-size: 20px;
+}
+
+
+
+

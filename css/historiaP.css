@@ -1,0 +1,55 @@
+@media (max-width: 1249px){
+
+.Info p{
+    width: 80%;
+}
+
+.Info{
+    width: 80%;
+    height: 100%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#TituloH{
+    padding-right: 20px;
+    margin-right: 40px;
+}
+
+
+.ContenidoP{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contenido{
+    width: 100%;
+    height: 1450px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#ContenedorFotoLab{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#FotoLab{
+    width: 412px;
+    margin-left: 0px;
+}
+
+aside{
+    margin-top: 150px;
+}
+
+
+}
