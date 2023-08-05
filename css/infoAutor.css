@@ -48,7 +48,7 @@
 
 #ContenidoAutor h1{
     color: #8593AE;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
 }
 
@@ -57,4 +57,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
