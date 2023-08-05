@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/homeP.css">
     <link rel="stylesheet" href="css/infoContacto.css">
+    <link rel="stylesheet" href="css/infoContactoPeque.css">
     
 </head>
 <body>
@@ -78,24 +79,24 @@
                 <div id="formContacto">
                     <h1>Formulario Contacto</h1>
 
-                    <form action="">
+                    <form action="https://formsubmit.co/mdsantamaria02@gmail.com" method="post">
                         <p>Ingrese su email</p>
-                        <input class="TextBox" type="email" name="correo" id="correo" placeholder="Ej. juansantamaria@gmail.com">
+                        <input class="TextBox" type="email" name="Correo" id="Correo" placeholder="Ej. juansantamaria@gmail.com">
                         <p>Ingrese su nombre</p>
-                        <input class="TextBox" type="text" name="nombres" id="nombres" placeholder="Nombre">
+                        <input class="TextBox" type="text" name="Nombre" id="Nombre" placeholder="Nombre">
                         <p>Ingrese su apellido</p>
-                        <input class="TextBox" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
+                        <input class="TextBox" type="text" name="Apellidos" id="Apellidos" placeholder="Apellido">
                         <p>Ingrese su fecha de nacimiento</p>
-                        <input type="date" id="fecha" name="fecha">
+                        <input type="date" id="Fecha" name="Fecha">
                         <p>Seleccione el nivel de urgencia con el que requiere de nuestros servicios</p>
-                        <input type="range" id="cantidad" name="cantidad" min="0" max="100" step="1">
+                        <input type="range" id="Urgencia" name="Urgencia" min="0" max="2" step="1">
                         <p>Seleccione su genero</p>
-                        <select id="genero" name="genero">
+                        <select id="Genero" name="Genero">
                             <option value="masculino">Masculino</option>
                             <option value="femenino">Femenino</option>
                         </select>
                         <p>Seleccione su grado academico</p>
-                        <select id="grado" name="grado">
+                        <select id="Grado Acedemico" name="Grado Acedemico">
                             <option value="primaria">Primaria</option>
                             <option value="secundaria">Secundaria</option>
                             <option value="preparatoria">Preparatoria</option>
@@ -108,6 +109,10 @@
                         <br>
                         <br>
                         <input id="Button" type="submit" value="Enviar">
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/informacionContacto.html">
+
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
 
