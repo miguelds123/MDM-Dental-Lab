@@ -5,10 +5,12 @@
 
 .Ubicacion h1{
     color: #8593AE;
+    margin-bottom: 40px;
 }
 .Ubicacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
