@@ -1,0 +1,28 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+#carouselExample{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.ContenidoP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#InformaciónDueña h3{
+    margin-top: 10%;
+}
+
+#InformaciónDueña p{
+    margin-top: 10%;
+}
+
+aside{
+    width: 17%;
+    margin-right: 1%;
+}
