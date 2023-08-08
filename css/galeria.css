@@ -3,7 +3,7 @@
   }
 
 #carouselExample{
-    width: 80%;
+    width: 60%;
     margin-left: 20px;
 }
 
@@ -25,4 +25,28 @@
 aside{
     width: 17%;
     margin-right: 1%;
+}
+
+#Contactenos{
+    margin-top: 8%;
+}
+
+#Contactenos h2{
+    margin-bottom: 8%;
+}
+
+#InformaciónDueña p{
+    line-height: 1.2;
+}
+
+.Galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Galeria h1{
+    margin: 40px;
+    color: #8593AE;
 }
