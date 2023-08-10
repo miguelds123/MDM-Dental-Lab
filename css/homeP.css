@@ -53,6 +53,9 @@
         margin-top: 50px;
         border: solid 1px;
     }
+    nav a{
+        margin: 5px;
+    }
     
     aside a{
         padding: 10px;

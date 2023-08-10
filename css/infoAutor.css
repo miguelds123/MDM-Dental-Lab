@@ -59,3 +59,14 @@
     align-items: center;
     margin-top: 5%;
 }
+
+.ContenidoP #ContenedorFotoLab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#InformaciónDueña p{
+    color: white;
+}
