@@ -79,23 +79,34 @@
                 <div id="formContacto">
                     <h2>Formulario Contacto</h2>
 
-                    <form action="https://formsubmit.co/mdsantamaria02@gmail.com" method="post">
+                    <form action="https://formsubmit.co/mdsantamaria02@gmail.com" method="post" id="form">
                         <p>Ingrese su email</p>
                         <input class="TextBox" type="email" name="Correo" id="Correo" placeholder="Ej. juansantamaria@gmail.com">
+                        <p id="warningsEmail" class="warnings"></p>
+
                         <p>Ingrese su nombre</p>
                         <input class="TextBox" type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+                        <p id="warningsNombre" class="warnings"></p>
+
                         <p>Ingrese su apellido</p>
                         <input class="TextBox" type="text" name="Apellidos" id="Apellidos" placeholder="Apellido">
+                        <p id="warningsApellido" class="warnings"></p>
+
                         <p>Ingrese su fecha de nacimiento</p>
                         <input type="date" id="Fecha" name="Fecha">
+                        <p id="warningsFecha" class="warnings"></p>
+
                         <p>Seleccione el nivel de urgencia con el que requiere de nuestros servicios</p>
                         <input type="hidden" name="Edad" id="Edad">
+
                         <input type="range" id="Urgencia" name="Urgencia" min="0" max="2" step="1">
                         <p>Seleccione su genero</p>
+
                         <select id="Genero" name="Genero">
                             <option value="masculino">Masculino</option>
                             <option value="femenino">Femenino</option>
                         </select>
+
                         <p>Seleccione su provincia de residencia</p>
                         <select name="provincia" id="provincia"></select>
                         <p>Seleccione su grado academico</p>
@@ -111,7 +122,7 @@
 
                         <br>
                         <br>
-                        <input id="Button" type="submit" value="Enviar">
+                        <input id="Button" type="submit" value="Enviar" onclick="CalcularEdad()">
 
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/informacionContacto.html">
 
@@ -174,6 +185,8 @@
    <p><b>Copyright © 2023 MDM Dental Lab </b></p>
     </footer>
 
+    <script src="js/validacionesInfoContacto.js"></script>
     <script src="js/infoContacto.js"></script>
+    <script src="js/API.js"></script>
 </body>
 </html>

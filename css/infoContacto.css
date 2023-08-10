@@ -56,4 +56,6 @@ select option{
     color: #8593ae;
 }
 
-
+.warnings{
+    color: red;
+}
