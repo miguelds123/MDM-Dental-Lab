@@ -5,6 +5,8 @@
     <title>MDM Dental</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/homeP.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>
 
@@ -19,7 +21,7 @@
             </div>
         </header>
 
-        <nav>
+        <nav class="navigation-menu" id="navigation-menu">
             <a href="index.html">Home</a>
                 
             <a href="historia.html">Historia</a>
@@ -37,7 +39,10 @@
             <a href="audioVideo.html">Audios y Videos</a>
 
             <a href="infoAutor.html">Información del Autor</a>
+
         </nav>
+
+        <i class="menu-toggle-btn fas fa-bars" id="botonMenu"></i>
     </div>
 
     <main>
@@ -102,5 +107,7 @@
     <footer>
    <p><b>Copyright © 2023 MDM Dental Lab </b></p>
     </footer>
+
+    <script src="js/home.js"></script>
 </body>
 </html>

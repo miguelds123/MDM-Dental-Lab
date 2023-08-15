@@ -26,10 +26,11 @@
     }
     
     nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: none;
+    }
+
+    nav::before{
+        
     }
     
     nav a{
@@ -37,6 +38,16 @@
         color: #8593AE;
         text-decoration: none;
     }
+
+    .menu-toggle-btn{
+        display: block !important;
+        color: #8593AE;
+    }
+
+    .navigation-menu.active{
+        display: block;
+    }
+
     main{
         display: flex;
         flex-direction: column;

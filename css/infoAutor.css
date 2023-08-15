@@ -70,3 +70,11 @@
 #InformaciónDueña p{
     color: white;
 }
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #8593AE;
+    color: white;
+    width: 15%;
+    padding: 10px;
+}

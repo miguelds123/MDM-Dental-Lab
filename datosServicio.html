@@ -1,12 +1,20 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDM Dental</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/homeP.css">
-    
+    <link rel="stylesheet" href="css/datosServicio.css">
+
+    <link rel="stylesheet" href="css/datosServicioP.css">
 </head>
+
 <body>
 
     <div id="Encabezado">
@@ -14,7 +22,7 @@
             <div>
                 <img id="logo" src="Imagenes/Logo_Blanco.png" alt="Logo">
             </div>
-    
+
             <div id="Titulo">
                 <h1>MDM Dental Lab</h1>
             </div>
@@ -22,60 +30,136 @@
 
         <nav>
             <a href="index.html">Home</a>
-                
+
             <a href="historia.html">Historia</a>
-               
+
             <a href="datosServicio.html">Datos del Servicio</a>
-               
+
             <a href="informacionContacto.html">Información de Contacto</a>
-                
+
             <a href="acercaSitio.html">Acerca del Sitio</a>
-                
+
             <a href="ubicacion.html">Ubicacion</a>
-               
+
             <a href="galeria.html">Galeria de Imagenes</a>
-               
+
             <a href="audioVideo.html">Audios y Videos</a>
 
             <a href="infoAutor.html">Información del Autor</a>
         </nav>
+
+        <i class="menu-toggle-btn fas fa-bars" id="botonMenu"></i>
     </div>
 
     <main>
         <section class="Contenido">
             <article class="ContenidoP">
                 <div id="ContenedorFotoLab">
-                    <img id="FotoLab" src="Imagenes/6334498b70354.r_d.1060-707-5658 - Copy.jpeg" alt="Imagen Laboratorio">
+                    <img id="FotoLab" src="Imagenes/6334498b70354.r_d.1060-707-5658 - Copy.jpeg"
+                        alt="Imagen Laboratorio">
                 </div>
-                <h2>Datos Servicio</h2>
+                <div class="DatosDelServicio">
+                    <h2>Datos Servicio</h2>
+
+                    <div id="carouselExample" class="carousel carousel-dark slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img id="Imagen1" src="Imagenes/Foto pryecto 1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="Imagen1" src="Imagenes/Foto pryecto 2.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p>
+                        En esta sección, usted tendrá la posibilidad de seleccionar el servicio del cual desee obtener
+                        una
+                        cotización, junto con la cantidad correspondiente que requiera.
+                    </p>
+                    <div class="Cotizar">
+                        <select name="servicio" id="servicio">
+                            <option value="Cromo">Cromo</option>
+                            <option value="PartialFlex">Partial Flex</option>
+                            <option value="PartialFlex1TabI">Partial Flex con una tab ivoclar</option>
+                            <option value="PartialFlex2TabI">Partial Flex con dos tab ivoclar</option>
+                            <option value="AcrilicaTotalYParcial">Acrílica total y parcial</option>
+                            <option value="Acrilica1TabI">Acrílica con un tab ivoclar</option>
+                            <option value="Acrilica2TabI">Acrílica con dos tab ivoclar</option>
+                            <option value="AcrlicaInmediataProcesada">Acrlica Inmediata Procesada</option>
+                            <option value="AcrilicaInmediataAuto">Acrílica Inmediata Auto</option>
+                            <option value="AcrilicaMallaBarra">Acrílica Malla/Barra</option>
+                            <option value="AcrilicaSobreCromo">Acrílica Sobre Cromo</option>
+                            <option value="PulidoProtesisAcrilica">Pulido Prótesis Acrilica</option>
+                            <option value="PulidoProtesisFlex">Pulido Prótesis flex</option>
+                            <option value="ReparacionProtesisAcrilica">Reparacion Protesis Acrilica</option>
+                            <option value="CoronaEnZirconio">Corona en Zirconio</option>
+                            <option value="CoronaMetalPorcelana">Corona Metal Porcelana</option>
+                            <option value="CoronaEMax">Corona e-max</option>
+                            <option value="CarillaEMax">Carilla e-max</option>
+                            <option value="CarillaIncrustacion">Carilla Incrustacion</option>
+                            <option value="CoronaAcrilica">Corona Acrílica</option>
+                            <option value="EspigaMetal">Espiga Metal</option>
+                            <option value="BlanqueamientoPar">Blanqueamiento Par</option>
+                            <option value="Retenedor">Retenedor</option>
+                            <option value="Dual">Dual</option>
+                            <option value="Hawley">Hawley</option>
+                            <option value="Protesis">Protesis</option>
+                            <option value="Rodetes">Rodetes</option>
+                        </select>
+
+                        <input type="number" name="Cantidad" id="Cantidad">
+                        <input type="button" value="Agregar" onclick="Agregar()">
+                        <input type="button" value="Total" onclick="Cotizar()">
+
+                        <table id="table">
+                            <tr>
+                                <th>Servicio</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
             </article>
-           
+
         </section>
 
         <aside>
+            <div class="Aside">
+                <div id="InformaciónDueña">
+                    <img id="ImagenDuena" src="Imagenes/WhatsApp Image 2023-07-03 at 6.37.14 PM.jpeg"
+                        alt="Imagen Dueña">
 
-            <div id="InformaciónDueña">
-                <img id="ImagenDuena" src="Imagenes/WhatsApp Image 2023-07-03 at 6.37.14 PM.jpeg" alt="Imagen Dueña">
+                    <h3>Técnica Dental <br> Melissa Vindas</h2>
 
-                <h3>Tecnica Dental <br> Melissa Vindas</h2>
+                        <p >Diplomada en Mecánica Dental en el Colegio Universitario de Cartago.</p>
 
-                <p>Diplomada en Mecánica Dental en el Colegio Universitario de Cartago.</p>
+                </div>
 
-            </div>
+                <div id="Contactenos">
+                    <h2>Contactanos:</h2>
 
-            <div id="Contactenos">
-                <h2>Contactanos:</h2>
+                    <table id="table1">
+                        <tr>
+                            <td>
+                                <a href="https://www.instagram.com/mdm_dental_lab/" target="_blank">Instagram</a>
+                            </td>
 
-                <table>
-                    <tr>
-                        <td>
-                            <a href="https://www.instagram.com/mdm_dental_lab/" target="_blank">Instagram</a>
-                        </td>
-
-                        <td>
-                            <img class="FotoRedSocial" src="Imagenes/instagram_3.png" alt="Imagen Instagram">
-                        </td>
-                    </tr>
+                            <td>
+                                <img class="FotoRedSocial" src="Imagenes/instagram_3.png" alt="Imagen Instagram">
+                            </td>
+                        </tr>
                         <td>
                             <a href="https://www.facebook.com/mdmdentallab" target="_blank">Facebook</a>
                         </td>
@@ -83,23 +167,33 @@
                         <td>
                             <img class="FotoRedSocial" src="Imagenes/facebook.png" alt="Imagen Facebook">
                         </td>
-                    <tr>
+                        <tr>
 
-                    <tr>
-                        <td>
-                            <a href="https://wa.me/50688273193" target="_blank">WhatsApp</a>
-                        </td>
+                        <tr>
+                            <td>
+                                <a href="https://wa.me/50688273193" target="_blank">WhatsApp</a>
+                            </td>
 
-                        <td>
-                            <img class="FotoRedSocial" src="Imagenes/whatsapp_1.png" alt="Imagen WhatsApp">
-                        </td>
-                    </tr>
-                </table>
+                            <td>
+                                <img class="FotoRedSocial" src="Imagenes/whatsapp_1.png" alt="Imagen WhatsApp">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </aside>
     </main>
     <footer>
-   <p><b>Copyright © 2023 MDM Dental Lab </b></p>
+        <p><b>Copyright © 2023 MDM Dental Lab </b></p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="js/datosServicio.js"></script>
 </body>
+
+<script src="js/home.js"></script>
+
 </html>

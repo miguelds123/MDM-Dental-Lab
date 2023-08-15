@@ -1,5 +1,5 @@
 @media (max-width: 1249px){
-    
+
     aside{
         width: 100%;
     }
@@ -7,5 +7,13 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-}
 
+    .Cotizar{
+       
+        width: 90%;
+       align-items: center;
+       margin-left:80px ;
+       margin-right: 40px;
+    
+    }
+}

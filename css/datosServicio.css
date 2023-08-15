@@ -1,0 +1,88 @@
+#carouselExample{
+    width: 60%;
+    height: 70%;
+    
+}
+
+.DatosDelServicio h2{
+    color: #8593AE;
+    margin: 40px;
+}
+.DatosDelServicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DatosDelServicio p{
+    color: #8593AE;
+    margin: 40px;
+}
+
+#Cantidad {
+    
+    margin: 10px;
+    width: 90px;
+    height: 23px;
+   border: #DDA288 1px solid;
+   color: #8593AE;
+}
+
+select{
+    color: #8593ae;
+    border: solid 1px #DDA288;
+}
+
+select option{
+    color: #8593ae;
+}
+ input{
+ 
+    border: solid 1px #DDA288;
+    color: #8593ae;
+}
+
+#table th, table td{
+    border: #DDA288 1px solid; 
+    color: #8593AE;
+    width: 200px;
+  
+    text-align: center;
+}
+#table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#table1 th, #table1 td{
+border: transparent;
+}
+
+Aside{
+    width: 17%;
+    margin-right: 8px;
+}
+
+#ContenedorFotoLab{
+    
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#InformaciónDueña{
+    margin-bottom: 15px;
+}
+
+#informaciónDueña #ImagenDuena{
+    margin-bottom: 20px;
+}
+#informaciónDueña p{
+    margin-top: 20px;
+    
+    line-height: 1.2;
+}
