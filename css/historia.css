@@ -12,8 +12,12 @@
     color: #8593AE;
     text-align: center;
     margin-left: 15%;
+    font-size: 25px;
 }
 
 footer{
     margin-top: 5%;
+}
+aside{
+    height: 850px;
 }

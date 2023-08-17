@@ -1,0 +1,24 @@
+.AudioVideo {
+    color: #8593AE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.AudioVideo video{
+    width: auto;
+    margin-bottom: 50px;
+
+
+}
+.AudioVideo audio{
+   
+   border: 3px solid #DDA288;
+   border-radius: 35px;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #8593AE;
+ 
+   
+}

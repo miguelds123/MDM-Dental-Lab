@@ -1,0 +1,15 @@
+@media  (min-width: 1920px) {
+     p{
+        font-size: 18px;
+     
+    }
+    .Info{
+      
+            height: 10%;
+    }
+
+    footer{
+        margin-top: 2px;
+
+    }
+}

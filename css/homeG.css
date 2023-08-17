@@ -1,0 +1,20 @@
+@media  (min-width: 1920px) {
+
+
+    .navigation-menu{
+        
+        width: 100%;
+    }
+
+    .Info{
+     
+       font-size: 18px;
+       
+    }
+
+    select{
+        width:  20%;
+        font-size: 18px;
+    }
+   
+}

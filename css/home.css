@@ -73,6 +73,7 @@ aside{
     color: white;
     width: 15%;
     padding: 10px;
+    height: auto;
 }
 
 aside a{
@@ -148,6 +149,7 @@ footer{
   height: 250px;
    color: white;
    justify-content: center;
+   font-size: 18px;
    
 }
 
@@ -157,6 +159,9 @@ footer{
     padding: 20px;
     background-color: #8593AE;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 

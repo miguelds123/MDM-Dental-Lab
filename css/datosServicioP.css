@@ -1,19 +1,26 @@
-@media (max-width: 1249px){
+@media (max-width: 1249px) {
+  aside {
+    width: 100%;
+  }
 
-    aside{
-        width: 100%;
-    }
-    #ContenedorFotoLab{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  #FotoLab {
+    width: 95%;
+  }
 
-    .Cotizar{
-       
-        width: 90%;
-       align-items: center;
-       margin-left:80px ;
-       margin-right: 40px;
+  .Cotizar {
+    display: inline-block;
+
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
-    }
+  }
+
+  .Info {
+ 
+    margin-top: 0px;
+    height: 50%;
+  }
+ 
 }

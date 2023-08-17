@@ -62,6 +62,7 @@ border: transparent;
 Aside{
     width: 17%;
     margin-right: 8px;
+    height: auto;
 }
 
 #ContenedorFotoLab{
